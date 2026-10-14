@@ -1,0 +1,31 @@
+﻿# 环境变量（绝对不能提交）
+.env
+
+# Python 字节码缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 测试缓存
+.pytest_cache/
+.benchmarks/
+
+# 运行产物（本地生成，不提交）
+eval_results/
+eval_results_real/
+context_lab_results/
+*.log
+
+# IDE 配置
+.idea/
+.vscode/
+*.iml
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 系统文件
+Thumbs.db
+.DS_Store
